@@ -1,0 +1,131 @@
+/*样式清除*/
+* {
+  list-style: none;
+}
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+  color: #333;
+}
+ul{
+  padding: 0;
+}
+
+/* 公共样式 */
+.mt10 {
+  margin-top: 10px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.mt60 {
+  margin-top: 60px;
+}
+.mt70 {
+  margin-top: 70px;
+}
+.mt80 {
+  margin-top: 80px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mb50 {
+  margin-bottom: 50px;
+}
+.mb60 {
+  margin-bottom: 60px;
+}
+.mb70 {
+  margin-bottom: 70px;
+}
+.mb80 {
+  margin-bottom: 80px;
+}
+.pt50{
+  padding-top:50px;
+}
+.pt80{
+  padding-top:80px;
+}
+.pb40{
+  padding-bottom:40px;
+}
+.p60{
+  padding:60px 0;
+}
+.wt{
+  color:#fff;
+}
+.mc{
+  color:#38b1bb;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.tran {
+  transition: all 1s ease-out;
+}
+/* 首页按钮样式封装 */
+.index .btn-z {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.index .btn {
+  color: #fff;
+  display: inline-block;
+  border-radius: 0px;
+  padding: 6px 20px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+}
+.index .btn em {
+  font-style: normal;
+  color: #fff;
+  /* color:#e3a442; */
+}
+
+/* 单行溢出宽度变省略号样式封装 */
+.ellipsis{
+  white-space: nowrap;
+  text-overflow:ellipsis;
+  overflow: hidden;
+}
